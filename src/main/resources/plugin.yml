@@ -1,0 +1,7 @@
+name: hCaptcha
+author: ItsEatHam
+website: https://itseatham.dev
+version: 1.0-SNAPSHOT
+main: dev.itseatham.hcaptcha.hCaptcha
+commands:
+  captcha:

@@ -1,0 +1,59 @@
+#     _     _____             _       _
+#    | |   /  __ \           | |     | |
+#    | |__ | /  \/ __ _ _ __ | |_ ___| |__   __ _
+#    | '_ \| |    / _` | '_ \| __/ __| '_ \ / _` |
+#    | | | | \__/\ (_| | |_) | || (__| | | | (_| |
+#    |_| |_|\____/\__,_| .__/ \__\___|_| |_|\__,_|
+#    By ItsEatHam      | |
+#                      |_|
+#     ----------------------------------------------------------
+#
+# Please insert your license key here.
+# If you do not have a license key then join our discord server and open a ticket.
+# https://discord.itseatham.dev
+license-key: "XXXX-XXXX-XXXX-XXXX"
+
+# Kicks a player after selecting the wrong item in the captcha
+# You can use "\n" in the fail-kick-msg for multiple lines!
+kick-on-fail: true
+kick-after: 15
+fail-kick-reason: "&c&lExample Network \n&fYou have failed the captcha verification!\n \n&c&oPlease Try Again"
+
+# By Default this plugin uses random blocks in the Captcha Menu.
+# Use Red & Green Glass instead of a random blocks?
+use-glass: false
+
+# Captcha GUI Customization
+# If using UTF-8 Characters, its recommended to add "-Dfile.encoding="UTF-8" to your startup parameters.
+captcha-gui-name: "&4&l⚠ &8» &cClick the %block%"
+captcha-real-item: "&aClick here!"
+captcha-fake-item: "&cDon't click here!"
+
+# Messages
+# If using UTF-8 Characters, its recommended to add "-Dfile.encoding="UTF-8" to your startup parameters.
+# Welcome-msg: Sends player a message after completing captcha
+use-welcome-msg: true
+welcome-msg:
+  - ''
+  - '&8-------------------------'
+  - '&7Welcome to the Network!'
+  - ''
+  - '&cThis network is using hCaptcha Protection!'
+  - '&8-------------------------'
+help-msg:
+  - '&4&l⚠ &8» &chCaptcha Help'
+  - ''
+  - '&c/captcha check &7- &4&oCheck Player''s auth status'
+  - '&c/captcha remove &7- &4&oRemove Player''s auth status'
+  - '&c/captcha add &7- &4&oAdd Player''s auth status'
+  - '&c/captcha reload &7- &4&oReload Configurations'
+authentication-msg: "&8[&cCAPTCHA&8] &7Authentication Successful! You may continue."
+player-is-auth: "&8[&cCAPTCHA&8] &4%player% &cis authenticated."
+player-not-auth-msg: "&8[&cCAPTCHA&8] &4%player% &cIs not Authenticated!"
+player-added-msg: "&8[&cCAPTCHA&8] &aYou added %player% to the Authenticated List!"
+player-removed-msg: "&8[&cCAPTCHA&8] &cYou have removed &4%player% &cfrom the Authenticated List. \n&cThey will be required to redo the captcha."
+player-already-auth-msg: "&8[&cCAPTCHA&8] &4%player% &cis already Authenticated."
+provde-player-msg: "&8[&cCAPTCHA&8] &cPlease provide a player!"
+config-reload-msg: "&aConfig successfully reloaded."
+no-permissions-msg: "&cNo permission"
+
